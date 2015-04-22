@@ -6,4 +6,5 @@ Example project showing Spring 4's RestController to serve both XML and JSON.  N
 Sample uses:
 
 `curl -v -i -H "Accept: application/json" http://localhost:8080/test/hello/foo.json`
+
 `curl -v -i -H "Accept: application/xml" http://localhost:8080/test/hello/foo.xml`
